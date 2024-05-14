@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class FirstScript : MonoBehaviour
 {
+    int thisYear;
+
     // Start is called before the first frame update
     void Start()
     {
-        print("헬로 유니티");
+        thisYear = 2024;
+        print("이번 연도는 : " + thisYear + " 입니다.");
     }
 
     // Update is called once per frame
