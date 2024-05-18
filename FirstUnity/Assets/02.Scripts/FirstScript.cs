@@ -4,21 +4,20 @@ using UnityEngine;
 
 public class FirstScript : MonoBehaviour
 {
-    int thisYear;
-    float pi;
+    int level = 1;
     // Start is called before the first frame update
     void Start()
     {
-        thisYear = 2024;
-        print("�̹� ������ : " + thisYear + " �Դϴ�.");
-
-        pi = 3.14f;
-        print("���� ���� " + pi + " �Դϴ�.");
+        print("레벨업을" + level +  "했습니다.");
+        print("레벨업을" + level + "했습니다.");
+        print("레벨업을" + level + "했습니다.");
+        print("레벨업을" + level + "했습니다.");
+        print("레벨업을" + level + "했습니다.");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
