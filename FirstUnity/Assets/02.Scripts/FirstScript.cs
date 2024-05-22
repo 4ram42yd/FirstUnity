@@ -4,20 +4,13 @@ using UnityEngine;
 
 public class FirstScript : MonoBehaviour
 {
-    int level = 1;
-    // Start is called before the first frame update
+    int hp = 90;
     void Start()
     {
-        print("레벨업을" + level +  "했습니다.");
-        print("레벨업을" + level + "했습니다.");
-        print("레벨업을" + level + "했습니다.");
-        print("레벨업을" + level + "했습니다.");
-        print("레벨업을" + level + "했습니다.");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        hp = hp - 100;
+        if (hp < 0)
+        {
+            print("게임 오버!");
+        }
     }
 }
