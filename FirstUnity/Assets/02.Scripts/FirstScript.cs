@@ -4,12 +4,20 @@ using UnityEngine;
 
 public class FirstScript : MonoBehaviour
 {
-    int[] myArray = new int[3];
+    public List<int> myList = new List<int>();
 
-    int[] myArray2 = {3,6,9};
-
-   private void Start()
+    private void Start()
     {
+        myList.Add(5);
+        myList.Add(10);
+
+        myList.Insert(1, 7);
+
+        myList.Add(15);
+
+        myList.Remove(5);
+
+        myList.RemoveAt(1);
 
     }
 }
