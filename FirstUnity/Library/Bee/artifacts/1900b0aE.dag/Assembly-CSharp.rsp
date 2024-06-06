@@ -357,6 +357,7 @@
 -analyzer:"E:/Unity_Editors/2022.3.26f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"E:/Unity_Editors/2022.3.26f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/02.Scripts/Car.cs"
+"Assets/02.Scripts/DelegageExample.cs"
 "Assets/02.Scripts/FirstScript.cs"
 "Assets/02.Scripts/Human.cs"
 "Assets/02.Scripts/YoungDeuk.cs"
